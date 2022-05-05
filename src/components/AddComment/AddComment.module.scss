@@ -1,0 +1,25 @@
+.input {
+  &::after,
+  &::before {
+    display: none;
+  }
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &:hover {
+    border-color: #bdd6fa !important;
+    box-shadow: 0 0 0 3px rgb(70 131 217 / 12%);
+  }
+  padding: 12px 12px 12px 12px !important;
+  background-color: rgba(233, 233, 233, 0.452);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button {
+  width: fit-content;
+  align-self: flex-end;
+  margin-top: 15px;
+}

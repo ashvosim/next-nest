@@ -1,0 +1,47 @@
+.actions {
+  list-style: none;
+  display: flex;
+  position: relative;
+  justify-content: end;
+
+  margin-bottom: 0;
+
+  & > li:first-child {
+    position: absolute;
+    left: 0;
+  }
+}
+.postHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  img {
+    border-radius: 4px;
+  }
+
+  margin-bottom: 10px;
+
+  & > p:last-child {
+    position: absolute;
+    right: 0;
+  }
+}
+.postContainer {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+
+  cursor: pointer;
+
+  & > div {
+    p {
+      margin: 10px 0;
+    }
+  }
+}
+.title {
+  font-weight: 500 !important;
+  font-size: 22px !important;
+}

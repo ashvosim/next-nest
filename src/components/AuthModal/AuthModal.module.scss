@@ -1,0 +1,10 @@
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  input {
+    width: 250px;
+  }
+}

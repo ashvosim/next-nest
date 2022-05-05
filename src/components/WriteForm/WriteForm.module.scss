@@ -1,0 +1,36 @@
+.title {
+  align-self: center;
+
+  width: 650px;
+  margin-bottom: 10px;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+  input {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+
+  height: 100%;
+
+  button {
+    width: fit-content;
+
+    margin-bottom: 25px;
+  }
+}
+.editorContainer {
+  font-size: 18px;
+  flex: 1;
+
+  margin-bottom: 25px;
+  overflow: auto;
+}

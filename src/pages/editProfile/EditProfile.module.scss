@@ -1,0 +1,26 @@
+.editProfileContainer {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+
+  gap: 25px;
+
+  & > div {
+    padding: 25px;
+  }
+
+  form {
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+  }
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}

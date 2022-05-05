@@ -1,0 +1,21 @@
+.menuContainer {
+  width: 15vw;
+}
+.menuContainer > div {
+  position: fixed;
+
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  margin: 0 auto;
+  width: fit-content;
+
+  & button {
+    width: 160px;
+    justify-content: start;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,17 @@
+.commentContainer {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+  }
+}
+.title {
+  font-weight: 500 !important;
+}

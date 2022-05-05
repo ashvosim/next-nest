@@ -1,0 +1,62 @@
+.root {
+  background-color: #f8d5ff !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 10px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    & > button:first-child {
+      margin-right: 10px;
+    }
+  }
+  height: 60px;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  margin: 0 15px;
+
+  svg {
+    margin-left: 10px;
+    position: absolute;
+    opacity: 0.35;
+  }
+
+  input {
+    height: 40px;
+    padding: 10px 10px 10px 38px;
+
+    border-radius: 10px;
+    background-color: #f5c3ff;
+    outline: none;
+    border: none;
+
+    font-size: 16px;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #ffffff8a;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 3px 3px #f0a3ffaf;
+    }
+  }
+}
+.authContainer {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  p {
+    margin-left: 10px;
+  }
+}

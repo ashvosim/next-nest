@@ -1,0 +1,40 @@
+.title {
+  font-weight: 500 !important;
+  font-size: 26px !important;
+}
+.paperContainer {
+  max-width: 640px;
+  h6 {
+    margin-top: 15px;
+  }
+}
+.tableContainer {
+  tr:last-child {
+    td {
+      border-bottom: 0;
+    }
+  }
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  svg {
+    margin-left: 10px;
+    position: absolute;
+    opacity: 0.35;
+  }
+
+  input {
+    height: 40px;
+    padding: 10px 10px 10px 38px;
+
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    font-size: 16px;
+  }
+}
